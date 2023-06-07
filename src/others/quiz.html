@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This website is the summary of what game engines are.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Joono">
+    <meta name="sitemap-location" content="6.4">
+
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/others.css" />
+    <link rel="icon" type="image/x-icon" href="../styles/images/favicon.ico" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <a href="../index.html"> <img src="../styles/images/logo.png" width="40" height="40"> </a>
+    
+        <section class="dropdown">
+          <a href="../index.html" class="dropdown-name"><span> Home </span></a>
+        </section>
+    
+        <section class="dropdown">
+          <span> Gaming Platforms </span>
+          <ul class="dropdown-content">
+            <li><a href="../gamingPlatform/topic1.0.html"> General </a></li>
+            <li><a href="../gamingPlatform/topic1.1.html"> PC </a></li>
+            <li><a href="../gamingPlatform/topic1.2.html"> XBOX </a></li>
+            <li><a href="../gamingPlatform/topic1.3.html"> Nintendo Wii </a></li>
+            <li><a href="../gamingPlatform/topic1.4.html"> Mobile Devices </a></li>
+            <li><a href="../gamingPlatform/topic1.5.html"> Playstation </a> </li>
+            <li><a href="../gamingPlatform/topic1.6.html"> Arcades </a></li>
+          </ul>
+        </section>
+    
+        <section class="dropdown">
+          <span> Esports </span>
+          <ul class="dropdown-content">
+            <li><a href="../esports/topic2.0.html"> General </a></li>
+            <li><a href="../esports/topic2.1.html"> Growth of Esports </a></li>
+            <li><a href="../esports/topic2.2.html"> Technological Advancements </a></li>
+          </ul>
+        </section>
+    
+        <section class="dropdown">
+          <span> Game Engines </span>
+          <ul class="dropdown-content">
+            <li><a href="../gameEngines/topic3.0.html"> General </a></li>
+            <li><a href="../gameEngines/topic3.1.html"> Features </a></li>
+            <li><a href="../gameEngines/topic3.2.html"> Future </a> </li>
+          </ul>
+        </section>
+    
+        <section class="dropdown">
+          <span> VR / AR Gaming </span>
+          <ul class="dropdown-content">
+            <li> <a href="../vrArGaming/topic4.0.html"> General </a></li>
+            <li> <a href="../vrArGaming/topic4.1.html"> How does it work? </a></li>
+            <li><a href="../vrArGaming/topic4.2.html"> Games Related to VR / AR </a></li>
+          </ul>
+        </section>
+    
+        <section class="dropdown">
+          <a href="../evolutionOfGames/topic5.0.html" class="dropdown-name"> <span> Evoultion of Games </span> </a>
+        </section>
+    
+        <section class="dropdown">
+          <span class="dropdown-name"> Other Pages </span>
+          
+          <ul class="dropdown-content">
+            <li><a href="../others/enhancement.html"> Enchancement </a></li>
+            <li><a href="../others/about.html"> About </a></li>
+            <li><a href="../others/bibliography.html"> Bibliography </a></li>
+            <li><a href="../others/quiz.html"> Quiz </a></li>
+          </ul>
+        </section>
+      </nav>
+  
+      <h1 class="header-text">Quiz</h1>
+    </header>
+
+    <section class="quiz-explanation">
+      <h1 id="introHeading">What is this Website About?</h1>
+      <p id="introParagraph">
+        This website is to test your knowledge after reading the different pages
+        about video games and esports.
+      </p>
+    </section>
+
+      <form action="http://mercury.swin.edu.au/it000000/formtest.php" method="post">
+        <img id="pong" src="../styles/images/Pong_game.gif" alt="gameplay of the most popular game Pong"/>
+
+        <img id="gameEngineUI" src="../styles/images/gameEngineUI.jpg" alt="picture of a game engine UI" />
+
+        <section class="user-info">
+          <h1>User information</h1>
+          <div class="input-container">
+            <input type="text" placeholder="First name" name="firstName" id="firstName" class="input-field"required autocomplete="name" minlength="1" maxlength="30" size="10" pattern="[A-Z,a-z, ,-]{1,30}"/>
+            <label for="firstName" class="input-label"> First Name </label>
+          </div>
+
+          <div class="input-container">
+            <input type="text" placeholder="Last name" name="lastName" id="lastName" class="input-field" required="required" minlength="1" maxlength="30" size="10" pattern="[A-Z,a-z, ,-]{1,30}"/>
+            <label class="input-label" for="lastName"> Last Name </label>
+          </div>
+
+          <div class="input-container">
+            <input type="text" placeholder="Student number" name="studentId" id="studentId" class="input-field" minlength="7" maxlength="10" size="10" required="required" pattern="\d{7,10}"/>
+             <label class="input-label" for="studentId"> Student ID</label>
+            
+            <section id="question1">
+              <h1 class="questions">What year the game Pong invented?</h1>
+              <div class="box">
+                <select required>
+                  <option value="">Select year</option>
+                  <option>1967</option>
+                  <option>1970</option>
+                  <option>1972</option>
+                  <option>1975</option>
+                  <option>1980</option>
+                </select>
+              </div>
+            </section>
+            
+            <section id="question2">
+              <h1 class="questions" id="q2">What is a game engine?</h1>
+              <div class="container-1">
+                <div class="option-container">
+                  <input type="radio" name="question2" id="option1" value="3" required="required" />
+                  <label for="option1">
+                    Game engines is a software that provides a generic framework for games to be developed upon using prebuilt components.
+                  </label>
+                </div>
+                <div class="option-container">
+                  <input type="radio" name="question2" id="option2" value="2" required="required" />
+                  <label for="option2">
+                    Game engines is an engine that is specifically made to run games  within computers
+                  </label>
+                </div>
+                <div class="option-container">
+                  <input type="radio" name="question2"  id="option3" value="3" required="required" />
+                    <label for="option3">
+                    A game engine has four cylinders and runs on petrol.
+                  </label>
+                </div>
+                <div class="option-container">
+                  <input type="radio" name="question2" id="option4" value="4" required="required" />
+                  <label for="option4">
+                    A Game Engine is something developers use to play games.
+                  </label>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section id="question3">
+            
+            <div class="checkbox-container">
+              <h1 class="questions">Which of these are home video game consoles? <br> (there are multiple answers)</h1>
+             
+              <input type="hidden" id="Null" name="question3" value="Did not answer">
+
+
+            <div class="option-container">
+              <input type="checkbox" id="Xbox" name="question3" value="Xbox" />
+              <label for="Xbox">Xbox</label>
+            </div>  
+
+            <div class="option-container">
+
+              <input type="checkbox" id="bb" name="question3" value="Magnavox Odyssey" />
+              <label for="bb">Magnavox Odyssey</label>
+            </div>
+
+            <div class="option-container">
+              <input type="checkbox" id="BBC-Micro" name="question3" value="BBC Micro" />
+              <label for="BBC-Micro">BBC Micro</label>
+            </div>
+
+
+            <div class="option-container">
+              <input type="checkbox" id="PDP-1" name="question3" value="PDP-1"/>
+              <label for="PDP-1"> PDP-1</label>
+            </div>
+
+            
+
+            <div class="option-container">
+              <input type="checkbox" id="Playstation" name="question3" value="Playstation"/>
+              <label for="Playstation">Playstation</label>
+            </div>
+            </div>
+        
+
+
+
+          </section>
+          <section id="question4">
+            <h1 class="questions">What was the esports business <br>  total commercial value in 2018?</h1>
+          <div>
+            <label for="Q4">billion:  $</label>
+            <input type="number" id="Q4"  name="question4" min="100" max="200" step="10" value="100" required >
+          </div>
+          </section>
+
+          <section id="question5">
+            <h1 class="questions">What was the most popular AR game in 2016?</h1>
+          <div>
+            <label for="Q5"> Game name:</label>
+            <input type="text" id="Q5"  name="question5" required >
+          </div>
+          </section>
+
+
+
+
+
+            <input type="submit" class="submit" value="Submit" />
+        </section>
+      </form>
+    
+
+      <footer class="footer-section"> 
+        <section>
+            <a href="../index.html"> <img src="../styles/images/logo.png" width="40" height="40"> </a>
+        </section>
+
+        <section> 
+            <p> <a href="../others/about.html"> About Us </a> </p>
+            <p> <a href="mailto:drathnasinghe@swin.edu.au"> Mail to Tutor </a> </p>
+        </section>
+
+        <section> 
+            <p> Band of the Hawk Teams </p>
+            <p> &#169; 2023 - Band of the Hawk Team. All Rights Reserved </p>
+        </section>
+    </footer>
+
+  </body>
+</html>
