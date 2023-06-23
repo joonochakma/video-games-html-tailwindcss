@@ -79,43 +79,41 @@
                 </section>
             </nav>
   
-      <h1 class="header-text">Quiz</h1>
+      <h1 class="mb-[25px] text-[44.6px] text-center text-white">Quiz</h1>
     </header>
 
-    <section class="quiz-explanation">
-      <h1 id="introHeading">What is this Website About?</h1>
-      <p id="introParagraph">
+    <section class="text-center">
+      <h1 class="text-center m-[25px]">What is this Website About?</h1>
+      <p class="text-center m-[25px]">
         This website is to test your knowledge after reading the different pages
         about video games and esports.
       </p>
     </section>
 
       <form action="http://mercury.swin.edu.au/it000000/formtest.php" method="post">
-        <img id="pong" src="../styles/images/Pong_game.gif" alt="gameplay of the most popular game Pong"/>
+        <img class="relative float-right top-[60px] pr-[50px]" src="../styles/images/Pong_game.gif" alt="gameplay of the most popular game Pong"/>
 
-        <img id="gameEngineUI" src="../styles/images/gameEngineUI.jpg" alt="picture of a game engine UI" />
+        <img class="relative float-right top-[60px] pr-[50px] h-[200px] w-[200px]" src="../styles/images/gameEngineUI.jpg" alt="picture of a game engine UI" />
 
-        <section class="user-info">
-          <h1>User information</h1>
-          <div class="input-container">
-            <input type="text" placeholder="First name" name="firstName" id="firstName" class="input-field"required autocomplete="name" minlength="1" maxlength="30" size="10" pattern="[A-Z,a-z, ,-]{1,30}"/>
-            <label for="firstName" class="input-label"> First Name </label>
-          </div>
-
-          <div class="input-container">
-            <input type="text" placeholder="Last name" name="lastName" id="lastName" class="input-field" required="required" minlength="1" maxlength="30" size="10" pattern="[A-Z,a-z, ,-]{1,30}"/>
-            <label class="input-label" for="lastName"> Last Name </label>
-          </div>
-
-          <div class="input-container">
-            <input type="text" placeholder="Student number" name="studentId" id="studentId" class="input-field" minlength="7" maxlength="10" size="10" required="required" pattern="\d{7,10}"/>
-             <label class="input-label" for="studentId"> Student ID</label>
+        <section class="bg-[#3e78b2] text-white pt-[5px] pb-[200px] text-center">
+          <h1 class="relative text-white pb-[10px] text-[40px] text-right">User information</h1>
+          <div class="mt-2">
+            <input type="text" placeholder="First name" name="firstName" id="firstName" class="block w-full rounded-full border-0 px-4 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-[29%] mb-[15px] ml-[50px]" required autocomplete="name" minlength="1" maxlength="30" size="10" pattern="[A-Z,a-z, ,-]{1,30}"/>
             
-            <section id="question1">
-              <h1 class="questions">What year the game Pong invented?</h1>
+          </div>
+
+          <div class="input-container">
+            <input type="text" placeholder="Last name" name="lastName" id="lastName" class="block w-full rounded-full border-0 px-4 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-[29%] mb-[15px] ml-[50px]" required="required" minlength="1" maxlength="30" size="10" pattern="[A-Z,a-z, ,-]{1,30}"/>
+                      </div>
+
+          <div class="input-container">
+            <input type="text" placeholder="Student number" name="studentId" id="studentId" class="block w-full rounded-full border-0 px-4 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-[29%] mb-[15px] ml-[50px] " minlength="7" maxlength="10" size="10" required="required" pattern="\d{7,10}"/>
+
+            <section class="flex flex-col">
+              <h1 class="relative text-left  text-white pb-[10px] float-left ml-[100px]">What year the game Pong invented?</h1>
               <div class="box">
-                <select required>
-                  <option value="">Select year</option>
+                <select required class=" ml-[50px] pt-1 mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6 w-[21%]">
+                  <option value="" class="block text-sm font-medium leading-6 text-gray-900">Select year</option>
                   <option>1967</option>
                   <option>1970</option>
                   <option>1972</option>
@@ -125,30 +123,30 @@
               </div>
             </section>
             
-            <section id="question2">
-              <h1 class="questions" id="q2">What is a game engine?</h1>
-              <div class="container-1">
-                <div class="option-container">
-                  <input type="radio" name="question2" id="option1" value="3" required="required" />
-                  <label for="option1">
+            <section class="flex flex-col">
+              <h1 class="relative text-left  text-white py-[20px]  ml-[150px] " id="q2">What is a game engine?</h1>
+              <div class="space-y-4 ml-[50px] ">
+                <div class="flex items-center">
+                  <input type="radio" name="question2" id="option1" value="3" required="required" class=" h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600" />
+                  <label for="option1" class=" ml-3 text-left block text-sm font-medium leading-6 text-white text-[16px] w-[90%] break-words">
                     Game engines is a software that provides a generic framework for games to be developed upon using prebuilt components.
                   </label>
                 </div>
-                <div class="option-container">
-                  <input type="radio" name="question2" id="option2" value="2" required="required" />
-                  <label for="option2">
+                <div class="flex items-center">
+                  <input type="radio" name="question2" id="option2" value="2" required="required" class=" h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600" />
+                  <label for="option2" class=" ml-3 text-left block text-sm font-medium leading-6 text-white text-[16px] w-[90%]">
                     Game engines is an engine that is specifically made to run games  within computers
                   </label>
                 </div>
-                <div class="option-container">
-                  <input type="radio" name="question2"  id="option3" value="3" required="required" />
-                    <label for="option3">
+                <div class="flex items-center">
+                  <input type="radio" name="question2"  id="option3" value="3" required="required" class=" h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600" />
+                    <label for="option3" class=" ml-3 text-left block text-sm font-medium leading-6 text-white text-[16px] w-[90%]">
                     A game engine has four cylinders and runs on petrol.
                   </label>
                 </div>
-                <div class="option-container">
-                  <input type="radio" name="question2" id="option4" value="4" required="required" />
-                  <label for="option4">
+                <div class="flex items-center">
+                  <input type="radio" name="question2" id="option4" value="4" required="required" class=" h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600" />
+                  <label for="option4" class=" ml-3 text-left block text-sm font-medium leading-6 text-white text-[16px] w-[90%]">
                     A Game Engine is something developers use to play games.
                   </label>
                 </div>
@@ -158,39 +156,39 @@
 
           <section id="question3">
             
-            <div class="checkbox-container">
+            <div class="space-y-4 ml-[50px]">
               <h1 class="questions">Which of these are home video game consoles? <br> (there are multiple answers)</h1>
              
               <input type="hidden" id="Null" name="question3" value="Did not answer">
 
 
-            <div class="option-container">
-              <input type="checkbox" id="Xbox" name="question3" value="Xbox" />
-              <label for="Xbox">Xbox</label>
+            <div class="flex h-6 items-center">
+              <input type="checkbox" id="Xbox" name="question3" value="Xbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600" />
+              <label for="Xbox" class="font-medium text-white pl-6">Xbox</label>
             </div>  
 
-            <div class="option-container">
+            <div class="flex h-6 items-center">
 
-              <input type="checkbox" id="bb" name="question3" value="Magnavox Odyssey" />
-              <label for="bb">Magnavox Odyssey</label>
+              <input type="checkbox" id="bb" name="question3" value="Magnavox Odyssey" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600" />
+              <label for="bb" class="font-medium text-white pl-6">Magnavox Odyssey</label>
             </div>
 
-            <div class="option-container">
-              <input type="checkbox" id="BBC-Micro" name="question3" value="BBC Micro" />
-              <label for="BBC-Micro">BBC Micro</label>
+            <div class="flex h-6 items-center">
+              <input type="checkbox" id="BBC-Micro" name="question3" value="BBC Micro" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600" />
+              <label for="BBC-Micro" class="font-medium text-white pl-6">BBC Micro</label>
             </div>
 
 
-            <div class="option-container">
-              <input type="checkbox" id="PDP-1" name="question3" value="PDP-1"/>
-              <label for="PDP-1"> PDP-1</label>
+            <div class="flex h-6 items-center">
+              <input type="checkbox" id="PDP-1" name="question3" value="PDP-1" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"/>
+              <label for="PDP-1" class="font-medium text-white pl-6"> PDP-1</label>
             </div>
 
             
 
-            <div class="option-container">
-              <input type="checkbox" id="Playstation" name="question3" value="Playstation"/>
-              <label for="Playstation">Playstation</label>
+            <div class="flex h-6 items-center">
+              <input type="checkbox" id="Playstation" name="question3" value="Playstation" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"/>
+              <label for="Playstation" class="font-medium text-white pl-6">Playstation</label>
             </div>
             </div>
         

@@ -10,80 +10,80 @@
 
         <title>General - Gaming Platform</title>
         <link rel="stylesheet" href="../styles/style.css" />
-        <link rel="stylesheet" href="../styles/gamingPlatform.css" />
+        <link rel="stylesheet" href="/dist/output.css" />
         <link rel="icon" type="image/x-icon" href="../styles/images/favicon.ico" />
     </head>
 
-    <body>
-        <header class="header">
-        <nav class="navigation">
-            <a href="../index.html"> <img src="../styles/images/logo.png" width="40" height="40"> </a>
-        
-            <section class="dropdown">
-                <a href="../index.html" class="dropdown-name"><span> Home </span></a>
-            </section>
-        
-            <section class="dropdown">
-                <span> Gaming Platforms </span>
-                <ul class="dropdown-content">
-                    <li><a href="../gamingPlatform/topic1.0.html"> General </a></li>
-                    <li><a href="../gamingPlatform/topic1.1.html"> PC </a></li>
-                    <li><a href="../gamingPlatform/topic1.2.html"> XBOX </a></li>
-                    <li><a href="../gamingPlatform/topic1.3.html"> Nintendo Wii </a></li>
-                    <li><a href="../gamingPlatform/topic1.4.html"> Mobile Devices </a></li>
-                    <li><a href="../gamingPlatform/topic1.5.html"> Playstation </a> </li>
-                    <li><a href="../gamingPlatform/topic1.6.html"> Arcades </a></li>
-                </ul>
-            </section>
-        
-            <section class="dropdown">
-                <span> Esports </span>
-                <ul class="dropdown-content">
-                    <li><a href="../esports/topic2.0.html"> General </a></li>
-                    <li><a href="../esports/topic2.1.html"> Growth of Esports </a></li>
-                    <li><a href="../esports/topic2.2.html"> Technological Advancements </a></li>
-                </ul>
-            </section>
-        
-            <section class="dropdown">
-                <span> Game Engines </span>
-                <ul class="dropdown-content">
-                    <li><a href="../gameEngines/topic3.0.html"> General </a></li>
-                    <li><a href="../gameEngines/topic3.1.html"> Features </a></li>
-                    <li><a href="../gameEngines/topic3.2.html"> Future </a> </li>
-                </ul>
-            </section>
-        
-            <section class="dropdown">
-                <span> VR / AR Gaming </span>
-                <ul class="dropdown-content">
-                    <li> <a href="../vrArGaming/topic4.0.html"> General </a></li>
-                    <li> <a href="../vrArGaming/topic4.1.html"> How does it work? </a></li>
-                    <li><a href="../vrArGaming/topic4.2.html"> Games Related to VR / AR </a></li>
-                </ul>
-            </section>
-        
-            <section class="dropdown">
-                <a href="../evolutionOfGames/topic5.0.html" class="dropdown-name"> <span> Evoultion of Games </span> </a>
-            </section>
-        
-            <section class="dropdown">
-                <span class="dropdown-name"> Other Pages </span>
-                
-                <ul class="dropdown-content">
-                    <li><a href="../others/enhancement.html"> Enchancement </a></li>
-                    <li><a href="../others/about.html"> About </a></li>
-                    <li><a href="../others/bibliography.html"> Bibliography </a></li>
-                    <li><a href="../others/quiz.html"> Quiz </a></li>
-                </ul>
-            </section>
-        </nav>
+    <body class="flex flex-col min-h-screen">
+            <header class="text-white-100 " style="background-image: url('/src/styles/images/background.jpeg')">
+           <nav class="text-right p-[15px] flex  flex-row">
+                <a href="index.html"> <img src="/src/styles/images/logo.png" width="40" height="40"> </a>
+                <div class="flex-1">
+                </div>
+                <section class="relative inline-block text-white p-[10px] hover:underline">
+                    <a href="/src/index.html" class="text-white "><span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline"> Home </span></a>
+                </section>
+            
+                <section class="relative inline-block text-white p-[10px] group">
+                    <span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline"> Gaming Platforms </span>
+                    <ul class="hidden absolute bg-[#24272b] rounded-[10px] mt-[10px] min-w-[110px] group-hover:block">
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gamingPlatform/topic1.0.html"> General </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gamingPlatform/topic1.1.html"> PC </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gamingPlatform/topic1.2.html"> XBOX </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gamingPlatform/topic1.3.html"> Nintendo Wii </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gamingPlatform/topic1.4.html"> Mobile Devices </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gamingPlatform/topic1.5.html"> Playstation </a> </li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gamingPlatform/topic1.6.html"> Arcades </a></li>
+                    </ul>
+                </section>
+            
+                <section class="relative inline-block text-white p-[10px] group">
+                    <span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline"> Esports </span>
+                    <ul class="hidden absolute bg-[#24272b] rounded-[10px] mt-[10px] min-w-[110px] group-hover:block">
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../esports/topic2.0.html"> General </a></li>
+                        <li class="text-left list-none p-[10px]"><a class="no-underline text-white hover:underline" href="../esports/topic2.1.html"> Growth of Esports </a></li>
+                        <li class="text-left list-none p-[10px]"><a class="no-underline text-white hover:underline" href="../esports/topic2.2.html"> Technological Advancements </a></li>
+                    </ul>
+                </section>
+            
+                <section class="relative inline-block text-white p-[10px] group ">
+                    <span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline"> Game Engines </span>
+                    <ul class="hidden absolute bg-[#24272b] rounded-[10px] mt-[10px] min-w-[110px] group-hover:block">
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gameEngines/topic3.0.html"> General </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gameEngines/topic3.1.html"> Features </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../gameEngines/topic3.2.html"> Future </a> </li>
+                    </ul>
+                </section>
+            
+                <section class="relative inline-block text-white p-[10px] group">
+                    <span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline"> VR / AR Gaming </span>
+                    <ul class="hidden absolute bg-[#24272b] rounded-[10px] mt-[10px] min-w-[110px] group-hover:block">
+                        <li class="text-left list-none p-[10px]" > <a class="no-underline text-white hover:underline" href="../vrArGaming/topic4.0.html"> General </a></li>
+                        <li class="text-left list-none p-[10px]" > <a class="no-underline text-white hover:underline" href="../vrArGaming/topic4.1.html"> How does it work? </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../vrArGaming/topic4.2.html"> Games Related to VR / AR </a></li>
+                    </ul>
+                </section>
+            
+                <section class="relative inline-block text-white p-[10px] hover:underline">
+                    <a href="evolutionOfGames/topic5.0.html" class="text-white "> <span> Evoultion of Games </span> </a>
+                </section>
+            
+                <section class="relative inline-block text-white p-[10px] group">
+                    <span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline" class="text-white underline"> Other Pages </span>
+                    <ul class="hidden absolute bg-[#24272b] rounded-[10px] mt-[10px] min-w-[110px] group-hover:block">
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../others/enhancement.html"> Enchancement </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../others/about.html"> About </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../others/bibliography.html"> Bibliography </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../others/quiz.html"> Quiz </a></li>
+                    </ul>
+                </section>
+            </nav>
     
-        <h1 class="header-text">Gaming Platform - General</h1>
+        <h1 class="mb-[25px] text-[44.6px] text-center text-white">Gaming Platform - General</h1>
         </header>
 
-        <section class="general-text text-section">
-            <aside class="image-holder">
+        <section class="general-text p-[35px] flex-1">
+            <aside class="float-right w-[30vw] ml-[20px] p-[15px] text-center">
                 <figure>
                     <img src="../styles/images/jesse.jpg" height="300" width="95%" alt="Aaron Paul, who plays Jesse Pinkman from Breaking Bad, plays Xbox One in a commercial"/>
                     <figcaption> Aaron Paul, who plays Jesse Pinkman from Breaking Bad, plays Xbox One in a commercial</figcaption>
@@ -91,7 +91,7 @@
             </aside>
 
             <article>
-                <h2>What are gaming platforms?</h2>
+                <h2 class="font-bold text-[23px]">What are gaming platforms?</h2>
                 <p>
                 Gaming platforms are devices or software apllications that allow users
                 to play a variety of video games. Some popular examples of gaming
@@ -109,7 +109,7 @@
             <br>
 
             <article>
-                <h2>What can gaming platforms do?</h2>
+                <h2 class="font-bold text-[23px]">What can gaming platforms do?</h2>
                 <p>
                 Gaming platforms allow users to play video games, either through
                 hardware consoles like Xbox or Playstation, or through software
@@ -123,14 +123,14 @@
 
             <br>
 
-            <aside class="image-holder">
+            <aside class="float-right w-[30vw] ml-[20px] p-[15px] text-center">
                 <figure>
                 <img src="../styles/images/nintendoswitch.jpg" height="300" width="95%" alt="The Ninetendo Switch, a game console."/>
                 </figure>
             </aside>
 
             <article>
-                <h2>
+                <h2 class="font-bold text-[23px]">
                 How do gaming platforms address isssues related to privacy and security?
                 </h2>
                 <p>
@@ -148,7 +148,7 @@
             <br>
 
             <article>
-                <h2>
+                <h2 class="font-bold text-[23px]">
                 Why are game platforms popular in pop culture media and everyday lives?
                 </h2>
                 <p>
@@ -163,53 +163,54 @@
 
             <br>
 
-            <section class="quote">
-                <h1>"Education should learn from the the positve side of gaming -</h1>
-                <h1>reward, accomplishment and fun"</h1>
-                <p>- Sebastian Thrun, German-Amercian entreprenaur</p>
+            <section>
+                <h1 class="font-italic bold text-[1.8em] text-center">"Education should learn from the the positve side of gaming -</h1>
+                <h1 class="font-italic bold text-[1.8em] text-center">reward, accomplishment and fun"</h1>
+                <p class="italic bold text-[1.2em] text-center">- Sebastian Thrun, German-Amercian entreprenaur</p>
             </section>
         </section>
 
-        <nav class="subtopics">
-            <h1>Want to learn more about this topic?</h1>
-            <a href="topic1.1.html">
+        <nav class="bg-[#4A525A] text-white  w-full pt-[8px] pb-[5px] text-center ">
+            <h1 class="font-bold text-[28px] pb-[10px] ">Want to learn more about this topic?</h1>
+           <div class="flex flex-row justify-center">
+            <a class="m-[20px] mb-[10px]" href="topic1.1.html">
                 <img src="../styles/images/gamingPC.png" alt="PC" width="50" height="50"/>
             </a>
 
-            <a href="topic1.2.html">
+            <a class="m-[20px] mb-[10px]" href="topic1.2.html">
                 <img src="../styles/images/xbox.png" alt="Xbox" width="50"height="50" />
             </a>
 
-            <a href="topic1.3.html">
+            <a class="m-[20px] mb-[10px]" href="topic1.3.html">
                 <img src="../styles/images/nintendowii.png" alt="nintendoWii" width="50" height="50"/>
             </a>
 
-            <a href="topic1.4.html">
+            <a class="m-[20px] mb-[10px]" href="topic1.4.html">
                 <img src="../styles/images/mobile.png" alt="mobile" width="50" height="50"/>
             </a>
 
-            <a href="topic1.5.html">
+            <a class="m-[20px] mb-[10px]" href="topic1.5.html">
                 <img
                 src="../styles/images/playstation.png" alt="PlayStation" width="50" height="50" />
             </a>
 
-            <a href="topic1.6.html">
+            <a class="m-[20px] mb-[10px]" href="topic1.6.html">
                 <img src="../styles/images/arcade.png" alt="arcades" width="50" height="50"/>
             </a> 
+        </div>
         </nav>
-        <footer class="footer-section"> 
-            <section>
-                <a href="../index.html"> <img src="../styles/images/logo.png" width="40" height="40"> </a>
+       <footer class="bg-[#24272b] text-white italic p-[18px] top-0 w-full flex flex-col md:flex-row justify-center md:justify-between">
+            <section class="bg-inherit">
+                <img src="/src/styles/images/logo.png" width="35" height="35" />
+            </section>
+            
+            <section class=" text-center bg-inherit flex flex-col">
+                <p>Band of the Hawk Teams</p>
+                <p>&#169; 2023 - Band of the Hawk Team. All Rights Reserved</p>
             </section>
 
-            <section> 
-                <p> <a href="../others/about.html"> About Us </a> </p>
-                <p> <a href="mailto:drathnasinghe@swin.edu.au"> Mail to Tutor </a> </p>
-            </section>
-
-            <section> 
-                <p> Band of the Hawk Teams </p>
-                <p> &#169; 2023 - Band of the Hawk Team. All Rights Reserved </p>
+            <section class="bg-inherit flex flex-col">
+                <p><a class="float-right :hover underline" href="about.html"> About Us </a></p>
             </section>
         </footer>
     </body>
