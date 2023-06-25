@@ -14,14 +14,14 @@
     <link rel="icon" type="image/x-icon" href="../styles/images/favicon.ico" />
   </head>
 
-   <body class="flex flex-col min-h-screen"> 
-        <header class="text-white-100 " style="background-image: url('/src/styles/images/background.jpeg')">
+   <body class="flex flex-col min-h-screen">
+            <header class="text-white-100 " style="background-image: url('/src/styles/images/background.jpeg')">
            <nav class="text-right p-[15px] flex  flex-row">
-                <a href="../index.html"> <img src="/src/styles/images/logo.png" width="40" height="40"> </a>
+                <a href="index.html"> <img src="/src/styles/images/logo.png" width="40" height="40"> </a>
                 <div class="flex-1">
                 </div>
                 <section class="relative inline-block text-white p-[10px] hover:underline">
-                    <a href="../index.html" class="text-white "><span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline"> Home </span></a>
+                    <a href="/src/index.html" class="text-white "><span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline"> Home </span></a>
                 </section>
             
                 <section class="relative inline-block text-white p-[10px] group">
@@ -65,16 +65,16 @@
                 </section>
             
                 <section class="relative inline-block text-white p-[10px] hover:underline">
-                    <a href="../evolutionOfGames/topic5.0.html" class="text-white "> <span> Evoultion of Games </span> </a>
+                    <a href="evolutionOfGames/topic5.0.html" class="text-white "> <span> Evoultion of Games </span> </a>
                 </section>
             
                 <section class="relative inline-block text-white p-[10px] group">
                     <span class="h-[20px] font-bold text-center rounded-[100px] text-white no-underline" class="text-white underline"> Other Pages </span>
                     <ul class="hidden absolute bg-[#24272b] rounded-[10px] mt-[10px] min-w-[110px] group-hover:block">
-                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="enhancement.html"> Enchancement </a></li>
-                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="about.html"> About </a></li>
-                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="bibliography.html"> Bibliography </a></li>
-                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="quiz.html"> Quiz </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../others/enhancement.html"> Enchancement </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../others/about.html"> About </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../others/bibliography.html"> Bibliography </a></li>
+                        <li class="text-left list-none p-[10px]" ><a class="no-underline text-white hover:underline" href="../others/quiz.html"> Quiz </a></li>
                     </ul>
                 </section>
             </nav>
@@ -83,7 +83,7 @@
     </header>
 
     <section class="text-center">
-      <h1 class="text-center m-[25px]">What is this Website About?</h1>
+      <h1 class="text-center m-[25px text-[24px] font-bold ">What is this Website About?</h1>
       <p class="text-center m-[25px]">
         This website is to test your knowledge after reading the different pages
         about video games and esports.
@@ -95,8 +95,8 @@
 
         <img class="relative float-right top-[60px] pr-[50px] h-[200px] w-[200px]" src="../styles/images/gameEngineUI.jpg" alt="picture of a game engine UI" />
 
-        <section class="bg-[#3e78b2] text-white pt-[5px] pb-[200px] text-center">
-          <h1 class="relative text-white pb-[10px] text-[40px] text-right">User information</h1>
+        <section class="bg-[#3e78b2] text-white pt-[5px] pb-[50px] text-center">
+          <h1 class="relative text-white pb-[10px] text-[40px] text-center">User information</h1>
           <div class="mt-2">
             <input type="text" placeholder="First name" name="firstName" id="firstName" class="block w-full rounded-full border-0 px-4 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-[29%] mb-[15px] ml-[50px]" required autocomplete="name" minlength="1" maxlength="30" size="10" pattern="[A-Z,a-z, ,-]{1,30}"/>
             
@@ -124,7 +124,7 @@
             </section>
             
             <section class="flex flex-col">
-              <h1 class="relative text-left  text-white py-[20px]  ml-[150px] " id="q2">What is a game engine?</h1>
+              <h1 class="relative text-left  text-white py-[20px]  ml-[100px] " id="q2">What is a game engine?</h1>
               <div class="space-y-4 ml-[50px] ">
                 <div class="flex items-center">
                   <input type="radio" name="question2" id="option1" value="3" required="required" class=" h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600" />
@@ -154,39 +154,39 @@
             </section>
           </div>
 
-          <section id="question3">
+          <section class="flex flex-col">
             
-            <div class="space-y-4 ml-[50px]">
-              <h1 class="questions">Which of these are home video game consoles? <br> (there are multiple answers)</h1>
+            <div class="space-y-4 ">
+              <h1 class="relative text-left  text-white py-[30px]  ml-[100px] " >Which of these are home video game consoles? <br> (there are multiple answers)</h1>
              
               <input type="hidden" id="Null" name="question3" value="Did not answer">
 
 
-            <div class="flex h-6 items-center">
+            <div class="flex h-6 items-center ml-[50px]">
               <input type="checkbox" id="Xbox" name="question3" value="Xbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600" />
               <label for="Xbox" class="font-medium text-white pl-6">Xbox</label>
             </div>  
 
-            <div class="flex h-6 items-center">
+            <div class="flex h-6 items-center ml-[50px]">
 
               <input type="checkbox" id="bb" name="question3" value="Magnavox Odyssey" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600" />
               <label for="bb" class="font-medium text-white pl-6">Magnavox Odyssey</label>
             </div>
 
-            <div class="flex h-6 items-center">
+            <div class="flex h-6 items-center ml-[50px]">
               <input type="checkbox" id="BBC-Micro" name="question3" value="BBC Micro" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600" />
               <label for="BBC-Micro" class="font-medium text-white pl-6">BBC Micro</label>
             </div>
 
 
-            <div class="flex h-6 items-center">
+            <div class="flex h-6 items-center ml-[50px]">
               <input type="checkbox" id="PDP-1" name="question3" value="PDP-1" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"/>
               <label for="PDP-1" class="font-medium text-white pl-6"> PDP-1</label>
             </div>
 
             
 
-            <div class="flex h-6 items-center">
+            <div class="flex h-6 items-center ml-[50px]">
               <input type="checkbox" id="Playstation" name="question3" value="Playstation" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"/>
               <label for="Playstation" class="font-medium text-white pl-6">Playstation</label>
             </div>
@@ -196,15 +196,15 @@
 
 
           </section>
-          <section id="question4">
-            <h1 class="questions">What was the esports business <br>  total commercial value in 2018?</h1>
+          <section class="relative mb-3" >
+            <h1 class="relative text-left  text-white py-[20px]  ml-[100px] ">What was the esports business <br>  total commercial value in 2018?</h1>
           <div>
-            <label for="Q4">billion:  $</label>
-            <input type="number" id="Q4"  name="question4" min="100" max="200" step="10" value="100" required >
+            <label for="Q4" class="font-medium text-white pl-6 float-left" >billion:  $</label>
+            <input class="font-medium text-white pl-6 float-left ml-[12px]" type="number" id="Q4"  name="question4" min="100" max="200" step="10" value="100" required >
           </div>
           </section>
 
-          <section id="question5">
+          <section class="relative float-center pr-[40px] t-[20px]">
             <h1 class="questions">What was the most popular AR game in 2016?</h1>
           <div>
             <label for="Q5"> Game name:</label>
@@ -216,7 +216,7 @@
 
 
 
-            <input type="submit" class="submit" value="Submit" />
+            <input type="submit" class=" float-right place-self-end rounded-md bg-green-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" value="Submit" />
         </section>
       </form>
     
