@@ -41,12 +41,12 @@ If you want to see more examples click [here](https://tailwindcss.com/docs/utili
 
 ## Likes
 
-1. **Very quick and simple:** After reading the documentation, you dont have to think much on writing css as the naming convention removes the unnessary bloat code.
+1. **Very quick and simple:** After reading the documentation, you dont have to think much on writing standard CSS as the naming convention removes long extensible properties 
 
 2. **Only HTML files:** theres no need to switch to a css file as you can work directly in the html file saving huge amount of time.
 
 ## Dislikes
-1. **Reptitive** After reading the documentation, you dont have to think much on writing css as the naming convention removes the unnessary bloat code.
+1. **Reptitive** If you are working mul
 
 2. **Only HTML files:** theres no need to switch to a css file as you can work directly in the html file saving huge amount of time.
 
