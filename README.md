@@ -46,10 +46,12 @@ If you want to see more examples click [here](https://tailwindcss.com/docs/utili
 2. **Only HTML files:** theres no need to switch to a css file as you can work directly in the html file saving huge amount of time.
 
 ## Dislikes
-1. **Reptitive** If you are working mul
+**NOTE:** These dislikes are based on the project not really the Tailwind css framework
+1. **Reptitive** If you are working multiple pages. Its anoying dealing with the same css code for each page.  This is where the react project comes in place: [video-games-reactjs-tailwindcss](https://github.com/joonochakma/video-games-reactjs-tailwindcss )
 
-2. **Only HTML files:** theres no need to switch to a css file as you can work directly in the html file saving huge amount of time.
-
+## Advise
+1. I highly recomend learning CSS first, without learning the fundementals increase the learning curve for Tailwind CSS. Resulting a difficult experience.
+2. Once you know the basics of standard CSS. Don't worry about watching youtube tutorial, Just look the documentation already. This will dramatically speed up your learning experience  
 
 
 
